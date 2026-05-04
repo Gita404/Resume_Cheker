@@ -58,6 +58,8 @@ Edit `job_description.py` — add entries to `JOB_LISTINGS` with a title, compan
 
 <img width="1868" height="718" alt="image" src="https://github.com/user-attachments/assets/cec84e5b-1d46-490f-8bcb-f785b10d8efb" />
 
+<br>
+
 <img width="1864" height="756" alt="image" src="https://github.com/user-attachments/assets/3b67ed3c-8c9c-4c64-8add-909da2ce9773" />
 
 
