@@ -81,8 +81,16 @@ st.markdown("""
     }
 
     /* ── Radio button overrides ──────────────────── */
+    div[data-testid="stRadio"] label {
+        padding: 0.4rem 0.6rem;
+        border-radius: 6px;
+    }
+    div[data-testid="stRadio"] label:hover {
+        background: #f2f2f2;
+    }
     div[data-testid="stRadio"] label p {
         font-size: 0.9rem !important;
+        color: #1a1a1a !important;
     }
 
     /* ── File uploader ───────────────────────────── */
@@ -99,6 +107,33 @@ st.markdown("""
     div[data-testid="stFileUploader"] label p {
         color: #555 !important;
         font-size: 0.88rem !important;
+    }
+
+    /* ── FIX: force light theme inside drag-drop zone ── */
+    div[data-testid="stFileUploader"] section {
+        background: #ffffff !important;
+    }
+    div[data-testid="stFileUploader"] section * {
+        color: #333333 !important;
+    }
+    div[data-testid="stFileUploader"] section p {
+        color: #555555 !important;
+    }
+    div[data-testid="stFileUploader"] section svg {
+        fill: #555555 !important;
+        color: #555555 !important;
+    }
+    div[data-testid="stFileUploader"] section button {
+        background: #111111 !important;
+        color: #ffffff !important;
+        border: none !important;
+        border-radius: 6px !important;
+    }
+    div[data-testid="stFileUploader"] section button * {
+        color: #ffffff !important;
+    }
+    div[data-testid="stFileUploader"] section button:hover {
+        background: #333333 !important;
     }
 
     /* ── File list (custom) ──────────────────────── */
