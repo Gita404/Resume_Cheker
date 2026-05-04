@@ -1,8 +1,8 @@
 # Resume Checker
 
-A Streamlit app that analyzes PDF resumes against a job description and returns a **Shortlisted / Not Shortlisted** verdict with plain-English reasons.
+A Streamlit app that analyzes PDF resumes against a job description and returns a **Shortlisted / Not Shortlisted**  with reasons.
 
-Powered by the **Hugging Face Inference API** (Mistral 7B Instruct). Falls back to keyword matching if no API key is set.
+Model used : **Hugging Face Inference API** (Mistral 7B Instruct). Falls back to keyword matching if no API key is set.
 
 ---
 
@@ -50,7 +50,8 @@ Opens at `http://localhost:8501`.
 
 ## Adding Job Descriptions
 
-Edit `job_description.py` — add entries to `JOB_LISTINGS` with a title, company, description, required skills, and bonus skills.
+Edit `job_description.py` — add entries to `JOB_LISTINGS` with a title, company, description, required skills, and other skills.
+Can Modify the JD.
 
 
 
