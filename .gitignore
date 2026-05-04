@@ -9,13 +9,20 @@ venv/
 .venv/
 
 # Environment
-backend/.env
 .env
+backend/.env
 
 # IDE
 .vscode/
 .idea/
+.gemini/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Uploaded files (if any get saved locally)
+uploads/
