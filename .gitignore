@@ -10,7 +10,7 @@ venv/
 
 # Environment
 .env
-backend/.env
+# Website/.env
 
 # IDE
 .vscode/
